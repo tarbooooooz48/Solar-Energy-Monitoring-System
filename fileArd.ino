@@ -23,6 +23,7 @@ void loop()
   int loadvoltage = currentValue * 12;
   int power = loadvoltage*currentValue*currentValue;
   
+  
 
   lcd.print("Current = ");
   lcd.print(currentValue,2);
